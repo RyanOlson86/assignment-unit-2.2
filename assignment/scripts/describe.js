@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We create a variable called name and assign it the string 'Dane'.
+// We then check if name is equal to 'Mary'. 'Dane' is not equal to 'Mary' so we move to the else statement.
+// The else statement then console.log 'How do you do?'
 //
 
 //CODE
@@ -45,10 +45,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// we create a variable called secret, but do not assign a value.
+// we create a variable called code and assign a number 123.
+// We check if code is equal to 123. 123 is equal to 123 so we execute the code inside the if statement.
+// We assign 'super' to variable secret. We multiply code by 2 and assign the value of 246.
+// We then check if code is greater than 250, which it is not (246 is not greater than 250) and move out of the if statement.
+// We console.log 'super'.
 
 //CODE
 /*
@@ -70,10 +72,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create variable isStudent with boolean value true.
+// We create a variable age with number value 34.
+// We create a variable zip with number value 55407.
+// We check if isStudent is true AND zip is greater than 80000. Zip is not greater than 80000. move to first else if statement.
+// We check if isStudent is false OR if age is less than 30. Neither condition is true so we move to 2nd else if statement.
+// We check if isStudent is true. It is true so we console.log 'Welcome to Prime'.
 
 //CODE
 /*
@@ -132,6 +136,8 @@ if (number >= 2) {
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
+// FIX colorOne is set to 'red'. Should be let colorOne = 'blue';
+// FIX colorTwo is set to 'blue'. Should be let colorTwo = 'red';
 let mix = true;
 
 if (mix === true) {
@@ -150,6 +156,8 @@ const time = 4;
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
+// FIX if statement is using an OR compound conditional.
+// Should be -- if (temp > 39 && time >= 4) {
 */
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
@@ -165,5 +173,13 @@ if(minAge <= age) {
 } else {
   console.log('enter');
 }
+// FIX - if statement is console logging 'no entry' for a true statement.
+// Should be:
+//   if(minAge <= age) {
+//    console.log('enter');
+//  } else {
+//    console.log('no entry');
+//  }
+
 */
 
